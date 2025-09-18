@@ -1,0 +1,16 @@
+.country{
+    border: 2px solid rgba(241, 174, 166, 0.35);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: gray;
+    position: relative;
+}
+.btn{
+    position: absolute;
+    bottom: 10px;
+}
+.size{
+    height: 400px;
+    width: 350px;
+}
