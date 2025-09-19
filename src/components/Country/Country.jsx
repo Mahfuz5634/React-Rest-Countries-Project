@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Country.css';
 
 
-const Country = ({country}) => {
+const Country = ({country,handleVisited}) => {
     
  const [value, setValue] = useState(false);
 const handlevisited=()=>{
@@ -12,8 +12,8 @@ const handlevisited=()=>{
     else{
         setValue(true)
     }
+    handleVisited(country);
 }
-    console.log(country.name.common)
     return (
         <div className='country'>
            <div className='size'>
